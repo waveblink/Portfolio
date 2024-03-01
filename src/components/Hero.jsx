@@ -30,7 +30,7 @@ function Hero() {
                 <p className="text-sm uppercase tracking-widest text-secondary">Hi, my name is</p>
                 <h1 className="text-5xl font-bold text-background">Maxwell Hahn</h1>
                 <h2 className="text-4xl sm:text-5xl font-bold text-secondary mt-4">From Concept to Code: Building the Web Beautifully</h2>
-                <p className="mt-4 max-w-lg mx-auto text-secondary">With a passion for AI!</p>
+                {/* <p className="mt-4 max-w-lg mx-auto text-secondary">With a passion for AI!</p> */}
                 <a href="#projects" className="mt-5 inline-block bg-accent hover:bg-accent-hover text-primary font-bold py-3 px-6 rounded">
                     Check out my work!
                 </a>
