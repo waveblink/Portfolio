@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.project-image {
+  width: 100%;  /* or any specific width */
+  height: 300px; /* desired fixed height */
+  object-fit: cover;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+  will-change: transform; /* Optimizes animations */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly scale up the card */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
